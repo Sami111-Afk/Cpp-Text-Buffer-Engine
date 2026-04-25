@@ -10,7 +10,7 @@ A lightweight text manipulation engine written in C++ that implements a robust *
 - **Custom Stack Implementation**: Uses a custom-built Stack class (`mystack.h`) to manage the history of actions.
 - **Two-Way State Management**:
   - `UNDO Stack`: Tracks the history of applied modifications.
-  - `REDO Stack`: Temporarily holds reverted actions, allowing users to re-apply them.
+  - `REDO Stack`: Temporarily holds reverted actions, in order to allow users to re-apply them.
 - **In-Memory Manipulation**: Direct array/string manipulation using standard C libraries (`cstring`) for efficient memory handling.
 
 ## 🚀 Usage
